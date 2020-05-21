@@ -23,6 +23,11 @@ img {
     width: 100%;
 }
 
+.js .header {
+    position: fixed;
+    width: 100%;
+}
+
 .logo-text {
     text-transform: uppercase;
     background-color: #63c6ae;
@@ -70,8 +75,12 @@ img {
     color: #63c6ae;
 }
 
-.header_btnMenu{
-
+.header__btnMenu{
+    float: right;
+    margin: 1.5em;
+    background: transparent;
+    border: none;
+    font-size: 14px;
 }
 
 /* Principal topo*/
