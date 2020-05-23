@@ -31,9 +31,9 @@ img {
 .logo-text {
     text-transform: uppercase;
     background-color: #63c6ae;
-    font-size: 23px;
+    font-size: 16px;
     margin: 0;
-    padding: 20px;
+    padding: 28px;
     display: block;
     text-decoration: none;
     font-weight: bold;
@@ -81,6 +81,10 @@ img {
     background: transparent;
     border: none;
     font-size: 14px;
+}
+
+.js .header__nav{
+    transition: max-height 1s;
 }
 
 /* Principal topo*/
@@ -319,7 +323,7 @@ img {
     text-transform: uppercase;
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1025px){
 
     .header{
         position: fixed;
